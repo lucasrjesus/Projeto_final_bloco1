@@ -1,8 +1,15 @@
 import { Input } from "./src/util/Input";
 import { Colors } from "./src/util/Colors";
-
+import { Carne } from "./src/model/Carne";
 
 export function main() {
+
+    // TESTE
+    // ID: 1, Nome: Picanha, Tipo: 1 (Carne), Preço: 89.90, Peso: 1.5kg
+    const testeCarne = new Carne(1, "Picanha Wagyu", 1, 280.90, 1.5);
+
+    console.log("\n--- Teste Carne ---");
+    testeCarne.visualizar();
 
     let opcao: number;
 
