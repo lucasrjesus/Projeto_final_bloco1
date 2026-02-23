@@ -1,4 +1,4 @@
-# Projeto Loja de Games Gen - TypeScript & POO
+# Projeto Açougue Carne Boa - TypeScript & POO
 
 ## Sistema de Gerenciamento de E-commerce de um Açougue | Portfólio Profissional
 
