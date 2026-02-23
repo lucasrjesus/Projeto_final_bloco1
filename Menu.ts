@@ -44,6 +44,7 @@ export function main() {
     if (opcao === 0) {
       console.log(Colors.fg.brightBlue, "\nAçougue Carne Boa - Preço Baixo é Aqui!");
       console.log(Colors.reset);
+      sobre();
       process.exit(0);
     }
 
@@ -149,5 +150,6 @@ function produtosTeste(produtos: ProdutoController): void {
     produtos.cadastrar(new Bebida(produtos.gerarId(), "Fanta Laranja", 2, 12.00, 2));
 
 }
+
 
 main();
